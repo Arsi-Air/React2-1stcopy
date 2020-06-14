@@ -8,6 +8,6 @@ function Hi() {
 }
 
 function greet(name) {
-  return "Hi " + name;
+  return "Hi " + name + "!";
 }
 ReactDOM.render(<Hi/>, document.querySelector('#root'));
