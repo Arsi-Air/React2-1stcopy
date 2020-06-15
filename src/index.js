@@ -23,3 +23,4 @@ const Gate = function({ isOpen }) {
   </div>
 }
 
+ReactDOM.render(<Gate isOpen= {true} />, document.querySelector('#root'));
