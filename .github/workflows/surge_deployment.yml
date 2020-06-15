@@ -29,4 +29,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./build arsi-air3.surge.sh --token ${{ secrets.SURGETOKEN }}
+      run: surge ./build arsi-air4.surge.sh --token ${{ secrets.SURGETOKEN }}
